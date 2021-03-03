@@ -10,10 +10,10 @@ public class Fecha {
 	public int mes;
 	public int ano;
 
-	public Fecha(int d, int m, int a) {
-		this.dia = d;
-		this.mes = m;
-		this.ano = a;
+	public Fecha(int dia, int mes, int ano) {
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
 	}
 
 	public boolean valida() {
